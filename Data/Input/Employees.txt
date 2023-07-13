@@ -1,0 +1,6 @@
+Hello,​
+I need some information for the following employees from Tax Department:​
+John Doe – john.doe@company.com – 3000$​
+Mary Smith – mary.smith@ourcompany.com – 2000$​
+Joe Stones – joe.stones@company.com – 2500$​
+Angela Torres – angela.torres@company.com – 3100$

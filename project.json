@@ -1,0 +1,110 @@
+{
+  "name": "fwf-tax-department-employees-demo",
+  "projectId": "2699b3cd-43b6-41b2-9fe8-4ee2032b6c09",
+  "description": "Completes a txt template with details about employees.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.20.2]",
+    "UiPath.System.Activities": "[23.6.0-preview]",
+    "UiPath.Testing.Activities": "[23.6.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.6.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0e0008e8-4ed9-4709-9f78-4aa40f10b311",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_ReadTxtFile.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "df70c0db-4b27-4dfe-9742-a0f0f57ef064",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_GetInputFromUser.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8b2ec78a-911f-48ce-a306-0c3c0552c4f3",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_GetMatchingLineFromText.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "336428cc-afdd-4157-a915-72381c437eab",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_GetDataFromMatchingLine.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "67ac2bea-20c6-4a7f-8fce-d11128ae4a3d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_GetTaxValuesFromInputText.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5cb099e3-c31b-4076-bd37-806d77ed3464",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_CalculateAverageForTaxValues.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "88075a6e-ab9a-4967-8b40-4d749a9f3b06",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_CreateOutputFile.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "548a1128-ecf4-4dd5-a789-9e0083cbab11",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
